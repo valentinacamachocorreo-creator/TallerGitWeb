@@ -5,14 +5,28 @@ body {
 }
 
 header {
-    background-color: lightgray;
+    background-color: rgb(95, 156, 206);
     color: black;
     padding: 15px;
     text-align: center;
 }
+
 a {
     text-decoration: none;
+}
 
+ a:hover {
+    color: red;
+ }
+ h2 {
+    border: 1px solid black;
+    background-color:  rgb(95, 156, 206);
+    display: inline-block;
+    padding: 5px 10px;
+ }
+
+p {
+    max-width: 850px;
 }
 
 main {
@@ -25,9 +39,12 @@ section {
     padding: 15px;
     border-radius: 5px;
 }
+.Formulario section{
+    background-color: gray;
+}
 
 button{
-    background-color: purple;
+    background-color:lightgray;
     color: black;
     border: none;
     padding: 8px 12px;
