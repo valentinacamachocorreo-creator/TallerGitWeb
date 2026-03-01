@@ -3,25 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Internet Evolucion</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
     <header>
-        <h1>Sitio web</h1>
-        <nav>
-            <ul>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">servicios</a></li>
-                <li><a href="#">contactos</a></li>
-            </ul>
-        </nav>
+        <h1>Evolucion del internet</h1>
     </header>
-    <main>
+   <main>
+    <section>
+        <h2>Web 1.0 La Web estatica (1990-2004)</h2>
+        <p>Fue la primera etapa del <strong>internet.</strong> se caracteriza por <strong>paginas estaticas</strong> donde el usuario solo podia leer
+            informacion. No hania interaccion ni comentarios. Las paginas estaban hechas de <strong>html</strong> basico y no existian redes sociales
+        </p>
+        <h3>Caracteristicas</h3>
+        <ul>
+            <li>Paginas Informativas</li>
+            <li>Sin interaccion del usuario</li>
+            <li>Contenido fijo</li>
+            <li>Diseño simple</li>
+        </ul>
+        <h4>Ejemplo</h4>
+        <a href="https://www.idento.es/blog/desarrollo-web/ver-paginas-webs-antiguas/">Paginas antiguas</a>
+    </section>
+
         <section>
-            <h2>Bienvenidos</h2>
-            <p>Este es el contenido principal de nuestro sitio wed.</p>
-        </section>
+            <h2>We2.0 La web social</h2>
+            <p>La web 2.0 permitio la participacion de los usuarios, Aparecieron las redes
+                socias, blogs, foros y plataformas donde las peersonas podian crear contenido.
+                </p>
+                <h3>Caracteristicas</h3>
+                <ul>
+                    <li>interaccion usuario-usuario</li>
+                    <li>Comentarios y Publicaciones</li>
+                    <li>Redes sociales</li>
+                    <li>Plataformas colaborativas</li>
+                </ul>
+                <h4>Ejemplo</h4>
+            
+                <ul>
+                    <li><a href="https://www.facebook.com/">facebook</a></li>
+                    <li><a href="https://www.youtube.com/">youtube</li>
+                    <li><a href="https://www.instagram.com/">instagram</a></li>
+                </ul>
+           
+       </section>
+
+       <section>
+           <h2>Web 3.0 La web inteligente</h2>
+            <p>Esta basada en inteligencia artificial, descentralizada y datos inteligentes.
+            Busca que las maquinas comprendan la informacion y personalicen la experiencia del usuario.
+             </p>
+           <h3>Caracteristicas</h3>
+             <ul>
+               <li>Uso de AI</li>
+               <li>Blockchain</li>
+               <li>Mayor privacidad</li>
+               <li>Automatizacion</li>
+           </ul>
+           <h4>Ejemplo</h4>
+           <ul>
+            <li><a href="https://www.apple.com/es/siri/">Siri</a></li>
+            <li><a href="https://assistant.google.com/intl/es_es/">Asistente de Google</a></li>
+            <li><a href="https://support.microsoft.com/es-es/topic/usar-cortana-en-windows-a76b75a2-fd18-84c9-09ad-723e96e9dfd9">Cortana</a></li>
+           </ul>
+       </section>
     </main>
+    <div class="Particion">
+    <section>
+        <h2>Redes sociales</h2>
+        <p>Las redes sociales transformaron la comunicacion digital. permiten compartir
+            contenido en tiempo real y conectar personas en todo el mundo.
+        </p>
+        <h3>Impacto</h3>
+        <ol>
+            <li>Comunicacion global inmediata</li>
+            <li>Marketing digital</li>
+            <li>Influencia social</li>
+            <li>Creacion de comunidades</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Computacion en la Nube</h2>
+        <p>La computacion en la nube permite almacenar informacion y ejecutar aplicaciones en servidores remotos
+            en lugar de hcaerlo en un computador local.
+        </p>
+        <h3>Ventajas</h3>
+        <ol>
+            <li>Acesso desde cualquier lugar</li>
+            <li>Seguridad de datos</li>
+            <li>Ahorro en infraestructura</li>
+            <li>Escalabilidad</li>
+        </ol>
+        <h4>Ejemplos</h4>
+        <ol>
+            <li><a href="https://workspace.google.com/intl/es/products/drive/">Google drive</a></li>
+            <li><a href="https://www.microsoft.com/es-es/microsoft-365/onedrive/online-cloud-storage">onedrive</a></li>
+            <li><a href="https://aws.amazon.com/es/">amazon web Servicesa(AWS)</a></li>
+        </ol>
+    </section>
+    </div>
+
+   <div class="Formulario">
+    <section>
+        <h2>Contactanos</h2>
+        <p>Si deseas recibir mas informacion sobre tecnologia y evolucion del internet,
+            completa el siguiente formulario:
+        </p>
+        <form>
+            <fieldset>
+                <legend>Informacion personal</legend>
+                
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="Correo">Correo electronico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+            <label for="interes">Temas de interes</label><br>
+            <select name="interes" name="interes">
+                <option value="web1">web 1.0</option>
+                <option value="Web2">Web 2.0</option>
+                <option value="Web3">Web 3.0</option>
+           </select><br><br>
+
+           <label for="mensaje" name="mensaje"></label>
+           <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+    </div>
 </body>
 </html>

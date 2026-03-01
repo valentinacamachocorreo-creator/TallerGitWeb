@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(95, 156, 206);
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ a:hover {
+    color: red;
+ }
+ h2 {
+    border: 1px solid black;
+    background-color:  rgb(95, 156, 206);
+    display: inline-block;
+    padding: 5px 10px;
+ }
+
+p {
+    max-width: 850px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: lightgray;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.Formulario section{
+    background-color: gray;
+}
+
+button{
+    background-color:lightgray;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
